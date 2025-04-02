@@ -5,7 +5,7 @@ const imageList = [
   { src: "src/img/BannerTest.png", alt: "Banner Test" },
   { src: "src/img/banner.jpg", alt: "Banner Example" },
   { src: "src/img/banner1.jpg", alt: "Banner Sample" },
-  { src: "src/img/banner2.jpg", alt: "Banner Sample" }, 
+
 ];
 
 function Banner() {
@@ -44,7 +44,7 @@ function Banner() {
   return (
     <div className="max-w-7xl w-8/12 h-[600px] md:flex flex-col justify-center items-center rounded-lg py-4 bg-center mx-auto mt-8 mb-8 relative hidden ">
       {/* Hiển thị ảnh hiện tại với hiệu ứng fade */}
-      <img 
+      <img
         src={imageList[currentIndex].src}
         alt={imageList[currentIndex].alt}
         className={`w-full h-full object-cover rounded-lg transition-opacity duration-500 ease-in-out 
